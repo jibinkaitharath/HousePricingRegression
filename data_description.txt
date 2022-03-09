@@ -276,51 +276,51 @@ Foundation: Type of foundation
 		
 BsmtQual: Evaluates the height of the basement
 
-       Ex	Excellent (100+ inches)	
-       Gd	Good (90-99 inches)
-       TA	Typical (80-89 inches)
-       Fa	Fair (70-79 inches)
-       Po	Poor (<70 inches
-       NA	No Basement
+    5-   Ex	Excellent (100+ inches)	
+    4-   Gd	Good (90-99 inches)
+    3-   TA	Typical (80-89 inches)
+    2-   Fa	Fair (70-79 inches)
+    1-   Po	Poor (<70 inches
+    0-   NA	No Basement
 		
 BsmtCond: Evaluates the general condition of the basement
 
-       Ex	Excellent
-       Gd	Good
-       TA	Typical - slight dampness allowed
-       Fa	Fair - dampness or some cracking or settling
-       Po	Poor - Severe cracking, settling, or wetness
-       NA	No Basement
+    5-   Ex	Excellent
+    4-   Gd	Good
+    3-   TA	Typical - slight dampness allowed
+    2-   Fa	Fair - dampness or some cracking or settling
+    1-   Po	Poor - Severe cracking, settling, or wetness
+    0-   NA	No Basement
 	
 BsmtExposure: Refers to walkout or garden level walls
 
-       Gd	Good Exposure
-       Av	Average Exposure (split levels or foyers typically score average or above)	
-       Mn	Mimimum Exposure
-       No	No Exposure
-       NA	No Basement
+    4-   Gd	Good Exposure
+    3-   Av	Average Exposure (split levels or foyers typically score average or above)	
+    2-   Mn	Mimimum Exposure
+    1-   No	No Exposure
+    0-   NA	No Basement
 	
 BsmtFinType1: Rating of basement finished area
 
-       GLQ	Good Living Quarters
-       ALQ	Average Living Quarters
-       BLQ	Below Average Living Quarters	
-       Rec	Average Rec Room
-       LwQ	Low Quality
-       Unf	Unfinshed
-       NA	No Basement
+    6-   GLQ	Good Living Quarters
+    5-   ALQ	Average Living Quarters
+    4-   BLQ	Below Average Living Quarters	
+    3-   Rec	Average Rec Room
+    2-   LwQ	Low Quality
+    1-   Unf	Unfinshed
+    0-   NA	No Basement
 		
 BsmtFinSF1: Type 1 finished square feet
 
 BsmtFinType2: Rating of basement finished area (if multiple types)
 
-       GLQ	Good Living Quarters
-       ALQ	Average Living Quarters
-       BLQ	Below Average Living Quarters	
-       Rec	Average Rec Room
-       LwQ	Low Quality
-       Unf	Unfinshed
-       NA	No Basement
+    6-   GLQ	Good Living Quarters
+    5-   ALQ	Average Living Quarters
+    4-   BLQ	Below Average Living Quarters	
+    3-   Rec	Average Rec Room
+    2-   LwQ	Low Quality
+    1-   Unf	Unfinshed
+    0-   NA	No Basement
 
 BsmtFinSF2: Type 2 finished square feet
 
@@ -339,11 +339,11 @@ Heating: Type of heating
 		
 HeatingQC: Heating quality and condition
 
-       Ex	Excellent
-       Gd	Good
-       TA	Average/Typical
-       Fa	Fair
-       Po	Poor
+    5-   Ex	Excellent
+    4-   Gd	Good
+    3-   TA	Average/Typical
+    2-   Fa	Fair
+    1-   Po	Poor
 		
 CentralAir: Central air conditioning
 
@@ -380,11 +380,11 @@ Kitchen: Kitchens above grade
 
 KitchenQual: Kitchen quality
 
-       Ex	Excellent
-       Gd	Good
-       TA	Typical/Average
-       Fa	Fair
-       Po	Poor
+    5-   Ex	Excellent
+    4-   Gd	Good
+    3-   TA	Typical/Average
+    2-   Fa	Fair
+    1-   Po	Poor
        	
 TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
 
@@ -403,12 +403,12 @@ Fireplaces: Number of fireplaces
 
 FireplaceQu: Fireplace quality
 
-       Ex	Excellent - Exceptional Masonry Fireplace
-       Gd	Good - Masonry Fireplace in main level
-       TA	Average - Prefabricated Fireplace in main living area or Masonry Fireplace in basement
-       Fa	Fair - Prefabricated Fireplace in basement
-       Po	Poor - Ben Franklin Stove
-       NA	No Fireplace
+    5-   Ex	Excellent - Exceptional Masonry Fireplace
+    4-   Gd	Good - Masonry Fireplace in main level
+    3-   TA	Average - Prefabricated Fireplace in main living area or Masonry Fireplace in basement
+    2-   Fa	Fair - Prefabricated Fireplace in basement
+    1-   Po	Poor - Ben Franklin Stove
+    0-   NA	No Fireplace
 		
 GarageType: Garage location
 		
@@ -424,10 +424,10 @@ GarageYrBlt: Year garage was built
 		
 GarageFinish: Interior finish of the garage
 
-       Fin	Finished
-       RFn	Rough Finished	
-       Unf	Unfinished
-       NA	No Garage
+    3-   Fin	Finished
+    2-   RFn	Rough Finished	
+    1-   Unf	Unfinished
+    0-   NA	No Garage
 		
 GarageCars: Size of garage in car capacity
 
@@ -435,21 +435,21 @@ GarageArea: Size of garage in square feet
 
 GarageQual: Garage quality
 
-       Ex	Excellent
-       Gd	Good
-       TA	Typical/Average
-       Fa	Fair
-       Po	Poor
-       NA	No Garage
+    5-   Ex	Excellent
+    4-   Gd	Good
+    3-   TA	Typical/Average
+    2-   Fa	Fair
+    1-   Po	Poor
+    0-   NA	No Garage
 		
 GarageCond: Garage condition
 
-       Ex	Excellent
-       Gd	Good
-       TA	Typical/Average
-       Fa	Fair
-       Po	Poor
-       NA	No Garage
+    5-   Ex	Excellent
+    4-   Gd	Good
+    3-   TA	Typical/Average
+    2-   Fa	Fair
+    1-   Po	Poor
+    0-   NA	No Garage
 		
 PavedDrive: Paved driveway
 
