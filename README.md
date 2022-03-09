@@ -24,7 +24,7 @@
 
 From the model buit we can conclude that 
 
-- Above grade (ground) living area square feet is an imortant indicator which determines the price of the house
+- Above grade (ground) living area square feet is an important indicator which determines the price of the house
 - The year the house was built the newer the building the better the price it fetches
 - Overall Quality of the house rated from Poor to Excellent plays an important factor
 - Finished Square Feet also plays an important role it determing the value of the house
